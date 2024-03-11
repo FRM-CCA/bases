@@ -1,0 +1,44 @@
+/* FILEPATH: /o:/Users/CCA/OneDrive - Lycée des Sciences et du Numérique Louis Armand/Dev/Code/php/bases/css/style.css */
+
+/* Reset default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set font and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fde0d8;
+	padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* Style heading */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+	font-style: italic;
+  color: #7c7c7c;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.3;
+  color: #666;
+}
+
+required {
+  color: red;
+}
+
+.info {
+  color: #7c7c7c;
+}

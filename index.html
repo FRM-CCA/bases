@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Envoie de données</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Envoie de données</h1>
+	<h2>Passage Paramêtre via URL = Method GET</h2>
+	<a href="get.php?param=a">Lien avec paramêtre [param=a]</a><br>
+	<a href="get.php?param=b">Lien avec paramêtre [param=b]</a><br>
+	<a href="get.php?param=c">Lien avec paramêtre [param=c]</a><br>
+	<a href="getttt.php?param=c">Lien avec paramêtre [param=aze]</a><br>
+	<a href="get.php?param=d&param2=e&param3=Z127">Lien avec paramêtre [param=d & param2=e & param3=Z127]</a>
+	<hr>
+	<h2>Passage Paramêtre via Formulaire = Method POST</h2>
+	<form action="post.php" method="post">
+		<input type="text" name="param" value="deja une valeur" placeholder="Saisir un paramêtre"><br>
+		<input type="text" name="param2" value="" placeholder="Saisir un second paramêtre"><br>
+		<input type="submit" value="Envoyer formulaire">
+	</form>
+	<hr>
+	<h1>Database en php</h1>
+	<a href="datasreading.php">Datas Reading</a><br>
+	<a href="dataswriting.php">Datas Writing</a><br>
+	<hr>
+	<p class="info">
+		With XAMPP modify db/config.php<br>
+		$password = ''; //default password must be empty<br>
+	</p>
+</body>
+</html>
