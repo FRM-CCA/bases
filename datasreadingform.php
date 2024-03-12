@@ -10,7 +10,7 @@ function dataRead($id){
 
 	global $lib, $comm, $num, $datec, $datem;
 
-	require_once 'db/config.php';	//inclusion de fichier
+	require_once 'config/config.php';	//inclusion de fichier
 	$pdo = null;
 	
 	try {

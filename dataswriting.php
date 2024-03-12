@@ -67,7 +67,7 @@ else{
 }
 
 function dataDelete($id){
-	require 'db/config.php';	//inclusion de fichier
+	require 'config/config.php';	//inclusion de fichier
 	$pdo = null;
 
 	try {
@@ -95,7 +95,7 @@ function dataDelete($id){
 }
 
 function dataWriting($id, $libelle, $commentaire, $numero, $datecreation, $datemodification){
-	require 'db/config.php';	//inclusion de fichier
+	require 'config/config.php';	//inclusion de fichier
 	$pdo = null;
 	
 	try {
@@ -152,7 +152,7 @@ function dataReading($id){
 	
 	//global $lib, $comm, $num, $datec, $datem;
 
-	require 'db/config.php';	//inclusion de fichier
+	require 'config/config.php';	//inclusion de fichier
 	$pdo = null;
 	
 	try {

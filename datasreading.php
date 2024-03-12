@@ -1,6 +1,6 @@
 <?php
 function dataRead(){
-	require_once 'db/config.php';	//inclusion de fichier
+	require_once 'config/config.php';	//inclusion de fichier
 	$pdo = null;
 	
 	try {
@@ -20,6 +20,8 @@ function dataRead(){
 			// Fetch all rows as associative arrays
 			$rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 			// Loop through the rows and display the data
+	var_dump($rows);
+	echo "<br><hr>";
 			foreach ($rows as $row) {
 					echo "Id: " . $row['id'] . "<br>";
 					echo "Libelle: " . $row['libelle'] . "<br>";
